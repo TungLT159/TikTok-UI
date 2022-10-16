@@ -26,6 +26,12 @@
     margin-left: 8px;
 }
 
+.icon {
+    display: inline-block;
+    width: 24px;
+    text-align: center;
+}
+
 //Button type
 .rounded {
     box-shadow: 0 2px 8px rgb(0 0 0 / 6%);
@@ -57,8 +63,12 @@
 }
 
 .text {
+    min-width: 113px;
+    font-weight: 500;
+    border: 1px solid rgba(22, 24, 35, 0.12);
+    border-radius: 2px;
     &:hover {
-        text-decoration: underline;
+        background-color: rgba(22, 24, 35, 0.03);
     }
 }
 
